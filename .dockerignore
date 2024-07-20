@@ -1,0 +1,31 @@
+# Ignore Python cache files
+__pycache__
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore egg-info directories
+*.egg-info/
+*.egg/
+
+# Ignore build directories
+build/
+dist/
+
+# Ignore logs
+*.log
+
+# Ignore Dockerfile and docker-compose.yml if present
+Dockerfile
+docker-compose.yml
+
+# Ignore .git directory and .dockerignore itself
+.git/
+.dockerignore
+
+# Particular repo ignores
+README.md
+logs.txt
